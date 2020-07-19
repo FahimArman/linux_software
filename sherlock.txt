@@ -1,0 +1,31 @@
+# search with a "user_name" in most popular websites.
+
+
+
+Download link:
+================
+https://github.com/sherlock-project/sherlock
+
+https://github.com/sherlock-project/sherlock/blob/master/sites.md
+
+download commands:
+==================
+git clone https://github.com/sherlock-project/sherlock.git
+cd sherlock
+python3 -m pip install -r requirements.txt
+
+
+
+
+  ================
+  ||  Options:  ||
+  ================
+
+cd sherlock   //move to the sherlock directory first    
+
+python3 sherlock --help
+
+python3 sherlock user123
+
+
+

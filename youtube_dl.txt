@@ -1,0 +1,29 @@
+# web browser
+
+Download link:
+================
+
+https://youtube-dl.org/
+
+https://github.com/ytdl-org/youtube-dl
+
+https://ytdl-org.github.io/youtube-dl/supportedsites.html
+
+download commands:
+==================
+
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+
+sudo chmod a+rx /usr/local/bin/youtube-dl
+
+
+================
+||  Options:  ||
+================
+
+youtube-dl --help
+
+youtube-dl [OPTIONS] URL [URL...]
+
+youtube-dl 
+

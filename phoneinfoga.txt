@@ -1,0 +1,47 @@
+# use phone number to identify.
+
+
+
+Download link:
+================
+#in python language
+
+https://github.com/la-deep-web/Phoneinfoga
+
+
+#in go language
+https://github.com/sundowndev/PhoneInfoga
+https://sundowndev.github.io/PhoneInfoga/install/
+https://medium.com/@SundownDEV/phone-number-scanning-osint-recon-tool-6ad8f0cac27b
+
+
+
+
+
+download commands:
+==================
+git clone https://github.com/la-deep-web/Phoneinfoga.git
+
+cd Phoneinfoga/
+
+python3 -m pip install -r requirements.txt
+
+
+
+
+
+
+
+================
+||  Options:  ||
+================
+
+
+python3 phoneinfoga.py --help  
+
+python3 phoneinfoga.py -v
+
+python3 phoneinfoga.py -n 12126712234
+
+python3 phoneinfoga.py -n 12126712234 --osint
+

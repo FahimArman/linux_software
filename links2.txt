@@ -1,0 +1,19 @@
+#links2 terminal browser with gui
+
+# a small gui based browser.
+
+Download link:
+================
+http://links.twibright.com/
+
+
+download commands:
+==================
+sudo apt-get install links2
+
+
+================
+||  Options:  ||
+================
+
+links2 --help

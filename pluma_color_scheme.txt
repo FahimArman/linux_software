@@ -1,0 +1,129 @@
+Download the file and then install it:
+=======================================
+
+link : https://github.com/mig/gedit-themes
+
+cd gedit-themes-master/
+
+./install.sh
+
+
+
+Edit one file and costomize it:
+================================
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+black and green color.
+
+color: 
+======
+
+black: #000000
+ferrari : #ff143b
+neon green: #39FF14
+
+-->
+<style-scheme id="green" _name="Green" version="1.0">
+  <author>Felipe Mesquita</author>
+  <description>A clone of the Github theme for Gedit.</description>
+
+<!-- Colors -->
+
+  <color name="background" value="#000000"/>
+  <color name="caret" value="#39FF14"/>
+  <color name="foreground" value="#39FF14"/>
+  <color name="highlight" value="#ff2800"/>
+  <color name="comment" value="#39FF14"/>
+  <color name="keyword" value="#39FF14"/>
+  <color name="function" value="#39FF14"/>
+  <color name="class" value="#39FF14"/>
+  <color name="number" value="#39FF14"/>
+  <color name="variable" value="#39FF14"/>
+  <color name="constant" value="#39FF14"/>
+  <color name="constant2" value="#39FF14"/>
+  <color name="string" value="#39FF14"/>
+  <color name="symbol" value="#39FF14"/>
+  <color name="identifier" value="#39FF14"/>
+
+<!-- Global Settings -->
+
+  <style name="text" foreground="foreground" background="background"/>
+  <style name="cursor" foreground="foreground"/>
+  <style name="current-line" background="background"/>
+  <style name="line-numbers" foreground="foreground" background="background"/>
+  
+<!-- Bracket Matching -->
+  <style name="bracket-match" background="highlight"/>
+  <style name="bracket-mismatch" background="highlight" bold="true"/>
+  <style name="search-match" foreground="foreground" background="caret"/>
+
+<!-- Comments -->
+  <style name="def:comment" foreground="comment" italic="true"/>
+  <style name="def:shebang" foreground="comment" italic="true"/>
+  <style name="def:doc-comment-element" foreground="comment" bold="true"/>
+
+<!-- Constants and Variables-->
+  <style name="def:constant" foreground="constant"/>
+  <style name="def:string" foreground="string"/>
+  <style name="def:special-char" foreground="string"/>
+  <style name="def:special-constant" foreground="constant" bold="true"/>
+  <style name="def:boolean" foreground="constant"/>
+  <style name="def:number" foreground="number"/>
+  <style name="def:floating-point" foreground="number"/>
+  <style name="def:keyword" foreground="keyword" bold="true"/>
+  <style name="def:builtin" foreground="foreground" bold="true"/>
+  <style name="def:variable" foreground="variable"/>
+  
+<!-- Identifiers -->
+  <style name="def:identifier" foreground="identifier"/>
+
+<!-- Statements -->
+  <style name="def:statement" foreground="constant"/>
+
+<!-- Types -->
+  <style name="def:type" foreground="class" bold="true"/>
+  
+<!-- Others -->
+  <style name="def:error" foreground="highlight" bold="true"/>
+  <style name="def:note" foreground="highlight" bold="true"/>
+  <style name="def:net-address-in-comment" foreground="variable" italic="false" underline="true"/>
+  <style name="def:preprocessor" foreground="highlight"/>
+    
+<!-- Unknown? -->
+  <style name="def:specials" background="identifier"/>
+
+<!-- C Styles -->
+  <style name="c:preprocessor" map-to="def:special-char"/>
+
+<!-- Diff Styles -->
+  <style name="diff:ignore" foreground="highlight"/>
+
+<!-- Ruby Styles -->
+  <style name="ruby:module-handler" foreground="identifier"/>
+  <style name="ruby:symbol" foreground="symbol"/>
+  <style name="ruby:regex" foreground="number"/>
+  <style name="ruby:function" foreground="function"/>
+
+<!-- SH Styles -->
+  <style name="sh:others" map-to="text"/>
+  
+<!-- XML Styles -->
+  <style name="xml:attribute-name" foreground="keyword"/>
+  <style name="xml:element-name" foreground="keyword"/>
+
+</style-scheme>
+
+
+
+
+
+
+other link:
+=============
+
+https://github.com/StylishThemes/Syntax-Themes
+
+

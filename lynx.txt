@@ -1,0 +1,22 @@
+# web browser
+
+Download link:
+================
+
+https://lynx.browser.org/
+
+
+
+download commands:
+==================
+
+sudo apt-get install lynx
+
+
+================
+||  Options:  ||
+================
+lynx --help
+
+lynx https://dailybrowsing.github.io/
+
